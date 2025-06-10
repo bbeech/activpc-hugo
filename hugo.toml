@@ -1,7 +1,7 @@
 # Basic Configuration
 baseURL = "/"
 languageCode = "en-us"
-title = "Your Site Title"
+title = "ActivPC"
 theme = "hugo-saasify-theme"
 
 # Required Features
@@ -35,9 +35,9 @@ enableGitInfo = true      # Enable Git info for lastmod
 
 # Theme Parameters
 [params]
-  description = "Your site description"
-  author = "Your Name"
-  logo = "/images/logo.svg"      # Path to your logo
+  description = "Your IT Specialists"
+  author = "Brandon Beech"
+  logo = "/images/logo.webp"      # Path to your logo
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   googleAnalytics = "G-XXXXXXXXXX"  # Only enabled in production
 
@@ -52,15 +52,15 @@ enableGitInfo = true      # Enable Git info for lastmod
     
     # Header Logo
     [params.header.logo]
-      src = "/images/logo.svg"
+      src = "/images/logo.webp"
     
     # Header Buttons (optional)
     [params.header.buttons]
       [params.header.buttons.signIn]
-        text = "Sign in"
+        text = "Contact"
         url = "/signin"
       [params.header.buttons.getStarted]
-        text = "Get Started"
+        text = "Support"
         url = "/get-started"
 
   # Global CTA Configuration (optional)
@@ -84,7 +84,7 @@ enableGitInfo = true      # Enable Git info for lastmod
 # Navigation Menu
 [menu]
   [[menu.main]]
-    name = "Features"
+    name = "Services"
     weight = 1
     [menu.main.params]
       has_submenu = true
@@ -93,10 +93,6 @@ enableGitInfo = true      # Enable Git info for lastmod
         { name = "Feature 2", url = "/features/feature-2/" }
       ]
   [[menu.main]]
-    name = "Pricing"
+    name = "About"
     url = "/pricing"
     weight = 2
-  [[menu.main]]
-    name = "Blog"
-    url = "/blog"
-    weight = 3
