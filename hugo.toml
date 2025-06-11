@@ -1,5 +1,5 @@
 # Basic Configuration
-baseURL = "/"
+baseURL = "https://hugotestinstance.com"
 languageCode = "en-us"
 title = "ActivPC"
 theme = "hugo-saasify-theme"
